@@ -22,7 +22,7 @@
 			</div>
 
 			<ul class="main-nav">
-				<li><a href="file:///Users/apple/Desktop/project/index.html" target="_blank"> Home </a></li>
+				<li><a href="file:///Users/apple/Desktop/project/index.html">Home </a></li>
 				<li><a href="https://www.stadiumgoods.com/privacy-policy" target="_blank"> About </a></li>
 				<li><a href="https://www.stadiumgoods.com/contact-us/" target="_blank"> Contact </a></li>
 			</ul>
@@ -31,7 +31,7 @@
 			
 			<div class="gnrbtn">
 				<button onclick="showshoes('male')">Male</button>
-				<button onclick="alert('Sorry! Female Stock Is Not Ready Yet')">Female</button>
+				<button onclick="showshoes('female')">Female</button>
 			</div>
 			
 			<div>
@@ -52,11 +52,18 @@
 				<a href="https://www.stadiumgoods.com/jordan-jordan-why-not-zer0-1-michigan-pe-819513-pc" target="_blank"><img class="male" src="https://www.stadiumgoods.com/cdn-cgi/image/fit%3Dcontain%2Cformat%3Dauto%2Cwidth%3D2000/media/catalog/product/8/1/819513-PC_1.png"></a>
 
 				<a href="https://www.stadiumgoods.com/air-jordan-1-low-travis-scott-cq4277-001" target="_blank"><img class="male" src="https://www.stadiumgoods.com/cdn-cgi/image/fit%3Dcontain%2Cformat%3Dauto%2Cwidth%3D2000/media/catalog/product/c/q/cq4277_001_1_1.png"></a>
+
+				<a href="https://www.stadiumgoods.com/air-jordan-4-sp-wmns-off-white-sail-cv9388-100" target="_blank"><img class="female" src="https://www.stadiumgoods.com/cdn-cgi/image/fit%3Dcontain%2Cformat%3Dauto%2Cwidth%3D1200/media/catalog/product/c/v/cv9388_100_1_1.png"></a>
+
+				<a href="https://www.stadiumgoods.com/golden-goose-sneakers-stardan-f36ws959-f2" target="_blank"><img class="female" src="https://www.stadiumgoods.com/cdn-cgi/image/fit%3Dcontain%2Cformat%3Dauto%2Cwidth%3D1200/media/catalog/product/F/3/F36WS959.F2_1.png"></a>
+
+				<a href="https://www.stadiumgoods.com/saucony-triumph-iso-3-s10346-2" target="_blank"><img class="female" src="https://www.stadiumgoods.com/cdn-cgi/image/fit%3Dcontain%2Cformat%3Dauto%2Cwidth%3D1200/media/catalog/product/S/1/S10346-2_1.png"></a>
 			</div>
 
 			<script>
 				
 				$(".male").hide();
+				$(".female").hide();
 				
 				function showshoes (className){
 					console.log("hi", className)
