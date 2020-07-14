@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Luxury Shoes</title>
+	<meta keywords="clothes"/>
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="design.css">
+</head>
+<body>
+	<
+	<h1 class="tit1">Welcome To The Luxury Shoes Warehouse</h1>
+	<h2 class="tit2">Powered By Stadium Goods</h2>
+
+	<header>
+		
+
+		<div class="main">
+			
+			<div>
+				<img class="logo" src="stadiumgoodslogo.jpeg">
+			
+			</div>
+
+			<ul class="main-nav">
+				<li><a href="file:///Users/apple/Desktop/project/index.html" target="_blank"> Home </a></li>
+				<li><a href="https://www.stadiumgoods.com/privacy-policy" target="_blank"> About </a></li>
+				<li><a href="https://www.stadiumgoods.com/contact-us/" target="_blank"> Contact </a></li>
+			</ul>
+
+		</div>
+			
+			<div class="gnrbtn">
+				<button onclick="showshoes('male')">Male</button>
+				<button onclick="alert('Sorry! Female Stock Is Not Ready Yet')">Female</button>
+			</div>
+			
+			<div>
+				<a href="https://www.stadiumgoods.com/air-jordan-1-retro-hi-union-black-toe-bv1300-106" target="_blank"><img class="male" src="https://www.stadiumgoods.com/cdn-cgi/image/fit%3Dcontain%2Cformat%3Dauto%2Cwidth%3D2000/media/catalog/product/B/V/BV1300-106_1.png"></a>
+
+				<a href="https://www.stadiumgoods.com/adidas-pw-human-race-nmd-pharrell-bb0619" target="_blank"><img class="male" src="https://www.stadiumgoods.com/cdn-cgi/image/fit%3Dcontain%2Cformat%3Dauto%2Cwidth%3D2000/media/catalog/product/B/B/BB0619_1.png"></a>
+
+				<a href="https://www.stadiumgoods.com/jordan-air-jordan-10-retro-public-school-promo-aj10-542509" target="_blank"><img class="male" src="https://www.stadiumgoods.com/cdn-cgi/image/fit%3Dcontain%2Cformat%3Dauto%2Cwidth%3D2000/media/catalog/product/a/j/aj10_542509_1.png"></a>
+
+				<a href="https://www.stadiumgoods.com/nike-air-force-1-low-off-white-mca-ci1173-400" target="_blank"><img class="male" src="https://www.stadiumgoods.com/cdn-cgi/image/fit%3Dcontain%2Cformat%3Dauto%2Cwidth%3D2000/media/catalog/product/c/i/ci1173_400_1.png"></a>
+
+				<a href="https://www.stadiumgoods.com/adidas-ultraboost-m-miami-hurricanes-aq7847" target="_blank"><img class="male" src="https://www.stadiumgoods.com/cdn-cgi/image/fit%3Dcontain%2Cformat%3Dauto%2Cwidth%3D2000/media/catalog/product/A/Q/AQ7847_1.png"></a>
+
+				<a href="https://www.stadiumgoods.com/nike-air-max-97-jesus-shoes-walk-on-water-921826-101a" target="_blank"><img class="male" src="https://www.stadiumgoods.com/cdn-cgi/image/fit%3Dcontain%2Cformat%3Dauto%2Cwidth%3D2000/media/catalog/product/9/2/921826-101a_1.png"></a>
+
+				<a href="https://www.stadiumgoods.com/air-jordan-4-retro-kaws-kaws-930155-003" target="_blank"><img class="male" src="https://www.stadiumgoods.com/cdn-cgi/image/fit%3Dcontain%2Cformat%3Dauto%2Cwidth%3D2000/media/catalog/product/9/3/930155_003_1.png"></a>
+
+				<a href="https://www.stadiumgoods.com/jordan-jordan-why-not-zer0-1-michigan-pe-819513-pc" target="_blank"><img class="male" src="https://www.stadiumgoods.com/cdn-cgi/image/fit%3Dcontain%2Cformat%3Dauto%2Cwidth%3D2000/media/catalog/product/8/1/819513-PC_1.png"></a>
+
+				<a href="https://www.stadiumgoods.com/air-jordan-1-low-travis-scott-cq4277-001" target="_blank"><img class="male" src="https://www.stadiumgoods.com/cdn-cgi/image/fit%3Dcontain%2Cformat%3Dauto%2Cwidth%3D2000/media/catalog/product/c/q/cq4277_001_1_1.png"></a>
+			</div>
+
+			<script>
+				
+				$(".male").hide();
+				
+				function showshoes (className){
+					console.log("hi", className)
+					$(".male").hide();
+					if ($("."+className).is(":visible")){
+						$("."+className).hide();
+					}
+					else $("."+className).show();
+				}
+			</script>
+		
+
+	</header>
+	
+</body>
